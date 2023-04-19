@@ -8,6 +8,7 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
+      "@formDesign/*": ["src/FormDesign/FormDesignEdit/*"],
       "ant-design-ext": ["src"],
       "ant-design-ext/*": ["src/*", "*"]
     }

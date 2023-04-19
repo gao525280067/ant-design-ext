@@ -1,0 +1,8 @@
+.demo-quill .quill {
+  height: 300px;
+}
+
+//如果想让编辑器填充整个页面，可以设置容器为100%高度，但是需要注意，这样会导致整个页面出现滚动条。解决方法是，添加下面这段CSS样式来覆盖Quill自带的样式:其中150px是header和footer的高度之和。
+.demo-quill .ql-container {
+  height: 230px !important;
+}
